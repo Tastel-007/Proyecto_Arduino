@@ -1,5 +1,5 @@
 #include <LiquidCrystal.h>
-LiquidCrystal lcd(7, 8, 9, 10, 11, 12);   //Incluye la libreria y conecta los siguientes pines a cada digito
+LiquidCrystal lcd(7, 8, 9, 10, 11, 12);   //Esta libreria permite gestionar el Lcd y hacer operaciones de bajo nivel
 
 int led = 13;                       //LED a pin 13
 int boton = 2;                      //Boton a pin 2
